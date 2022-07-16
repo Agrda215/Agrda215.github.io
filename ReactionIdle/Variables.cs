@@ -18,7 +18,7 @@ else
   break;
 }
 
-if (c <= 2)
+if (c < 2)
 {
   int j = 6
 }
