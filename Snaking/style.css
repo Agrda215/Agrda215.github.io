@@ -1,0 +1,17 @@
+h2#score {
+  color:yellow;
+  position:absolute;
+  font-family:Arial;
+  content:"Score"
+}
+
+img {
+  position:absolute;
+  width:70px;
+  height:70px
+}
+
+div.game-over {
+  display:none;
+  position:absolute
+}

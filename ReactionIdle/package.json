@@ -1,0 +1,7 @@
+{
+  "name":"Reaction Idle",
+  "description":"Get idle games.",
+  "version":"1.0.0",
+  "folder-name":"ReactionIdle",
+  "cs":"C#"
+}

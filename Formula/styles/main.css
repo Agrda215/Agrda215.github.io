@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Ubuntu";
+  src:url(https://cdn.glitch.global/ae5676e3-4b00-41bf-82b5-d1b727042f1c/Ubuntu-Medium.ttf?v=1657715620785)
+}
+
+h1 {
+  color:blue;
+  font-family:Ubuntu;
+}
+
+h2 {
+  color:blue;
+  font-family:Ubuntu;
+}
+
+div.upgrades{
+  font-size:2.7vh;
+  font-family:Ubuntu;
+}
+
+h2.math {
+  color:black
+}

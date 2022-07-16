@@ -1,0 +1,36 @@
+span.big {
+  font-size:4vh;
+}
+
+body {
+  background-color:cyan;
+  color:yellow;
+  font-size:2.5vh;
+  font-family:Roboto Medium
+}
+
+button {
+  background-color:yellow;
+  font-family:inherit;
+}
+
+resource.lemon {
+  color:inherit;
+}
+
+/* Import 3 Fonts */
+
+@font-face {
+  font-family:Roboto Medium;
+  src:url(https://cdn.glitch.global/ae5676e3-4b00-41bf-82b5-d1b727042f1c/Roboto-Medium.ttf?v=1657571488998)
+}
+
+@font-face {
+  font-family:Comic Sans;
+  src:url(https://cdn.glitch.global/ae5676e3-4b00-41bf-82b5-d1b727042f1c/comic-sans-ms-4.ttf?v=1657571522158)
+}
+
+@font-face {
+  font-family:Unicod Sans;
+  src:url(https://cdn.glitch.global/ae5676e3-4b00-41bf-82b5-d1b727042f1c/UNicod%20Sans%20Medium.ttf?v=1657571654886)
+}

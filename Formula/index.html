@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.css" integrity="sha384-D+9gmBxUQogRLqvARvNLmA9hS2x//eK1FhVb9PiU86gmcrBrJAQT8okdJ4LMp2uv" crossorigin="anonymous">
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/katex.min.js" integrity="sha384-483A6DwYfKeDa0Q52fJmxFXkcPCFfnXMoXblOkJ4JcA8zATN6Tm78UNL72AKk+0O" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0-rc.1/dist/contrib/auto-render.min.js" integrity="sha384-yACMu8JWxKzSp/C1YV86pzGiQ/l1YUfE8oPuahJQxzehAjEt2GiQuy/BIvl9KyeF" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+    <title>Formula!</title>
+  </head>
+  <body>
+      <h1 id="f">
+        f(0) = 0
+    </h1>
+      <p>\(\dot{f(t)} = t^{(\beta + 1)} \times (\alpha + 1)^{(\alpha_1 + 1)}\)</p>
+    <h2>
+      Upgrades
+    </h2>
+    <div class="upgrades">
+      <button id="cost1">
+        Cost:10 (&alpha; = 0)
+      </button>
+      <button id="cost2">
+        Cost:100,000 (&beta; = 0)
+      </button>
+    </div>
+    <h2>
+      Big Upgrades
+    </h2>
+    <button id="cost3">
+      Cost:40,000,000 (&alpha;<sub>1</sub> = 0)
+    </button>
+    <h3>
+      \(\int_{\alpha}^{\beta + 2}(\alpha \times \sqrt[4]{\alpha^2})\)
+    </h3>
+    <query>
+    <h2>
+      Themes
+      </h2>
+      <button>
+        Light
+      </button>
+    </query>
+  </body>
+  <link rel="stylesheet" href="styles/main.css">
+  <script src="scripts/OmegaNum.js"></script>
+  <script src="scripts/main.js"></script>
+</html>
