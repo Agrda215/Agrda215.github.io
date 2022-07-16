@@ -20,7 +20,7 @@ else
 
 if (c < 2)
 {
-  int j = 6
+  int j = 6;
 }
 
 // System Confing Package.json.
