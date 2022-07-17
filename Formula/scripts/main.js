@@ -8,6 +8,8 @@ var cost2 = new OmegaNum(1e5)
 var beta_equal = new OmegaNum(0)
 var cost3 = new OmegaNum(4e7)
 var alpha1_equal = new OmegaNum(0)
+var cost4 = new OmegaNum(1e33)
+var alpha2_equal = new OmegaNum(0)
 
 document.getElementById("cost1").onclick = () => {
   if (ft.gte(cost1) == true) {
@@ -39,9 +41,19 @@ document.getElementById("cost3").onclick = () => {
   }
 }
 
+document.getElementById("cost4").onclick = () => {
+  if (ft.gte(cost4) == true) {
+  ft = ft.sub(cost4)
+  cost4 = cost4.times(1e10)
+  alpha2_equal = alpha2_equal.add(1)
+  document.getElementById("f").innerHTML = "f(" + t + " &times; " + timespeed + " ) =" + ft
+  document.getElementById("cost4").innerHTML = "Cost:" + cost4 + " (&alpha;<sub>2</sub> = " + alpha2_equal + ")"
+  }
+}
+
 function Update() {
   t = t.add(0.1)
-  ft = ft.add(t.times(timespeed).pow(beta_equal.add(1)).times(alpha_equal.add(1).pow(alpha1_equal.add(1))))
+  ft = ft.add(t.times(timespeed).pow(beta_equal.add(1)).times(alpha_equal.add(1).pow(alpha1_equal.add(1))).times(alpha2_equal.pow(3).add(1).sqrt()))
   document.getElementById("f").innerHTML = "f(" + t + " &times; " + timespeed + " ) =" + ft
 }
 
