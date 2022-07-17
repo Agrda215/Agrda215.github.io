@@ -1,0 +1,129 @@
+@keyframes addcolor {
+  0%   {
+    color: rgba(255, 255, 255, 1);
+  }
+  10%   {
+    color: rgba(255, 255, 255, 0.9);
+  }
+  20%   {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  30%   {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  40%   {
+    color: rgba(255, 255, 255, 0.6);
+  }
+  50%   {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  60%   {
+    color: rgba(255, 255, 255, 0.4);
+  }
+  70%   {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  80%   {
+    color: rgba(255, 255, 255, 0.2);
+  }
+  90%   {
+    color: rgba(255, 255, 255, 0.1);
+  }
+  100%   {
+    color: rgba(255, 255, 255, 0.0);
+  }
+}
+
+h2 {
+  color:yellow;
+}
+
+body {
+  background-color:blue;
+}
+
+h3 {
+  color:yellowgreen;
+}
+
+h4.title {
+  font-size:9px;
+  font-family:Arial;
+  color:turquoise;
+  position:absolute;
+  left:430px
+}
+
+colmun {
+  position:absolute;
+}
+
+div.line {
+  width:30px;
+  height:690px;
+  background-color:white;
+  left:390px;
+  top:-20px;
+  position:absolute;
+}
+
+button {
+  background-color:yellow;
+  color:turquoise;
+}
+
+span.buttonLabel {
+  font-size:19px;
+  font-family:sans-serif;
+}
+
+out {
+  position:absolute;
+  top:120px
+}
+
+add {
+  animation:addcolor 2s infinite;
+  position:absolute;
+  top:147.5px
+}
+
+span.versionName {
+  font-family:monospace;
+  color:darkblue;
+}
+
+upgrade {
+  position:absolute;
+  left:430px;
+  top:30px
+}
+
+upgrade.row1 {
+  position:absolute;
+  left:430px;
+  top:60px
+}
+
+upgrade.row2 {
+  position:absolute;
+  left:430px;
+  top:90px
+}
+
+feature-text {
+  position:absolute;
+  left:430px;
+  top:120px
+}
+
+changelog-tab {
+  position:absolute;
+  left:430px;
+  top:370px
+}
+
+h3.version {
+  position:absolute;
+  top:550px
+}
