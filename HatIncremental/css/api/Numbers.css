@@ -1,0 +1,49 @@
+/* Extends One */
+span.one::before {
+  content:"1"
+}
+
+/* Extends Two */
+span.two::before {
+  content:"2"
+}
+
+/* Extends Three */
+span.three::before {
+  content:"3"
+}
+
+/* Extends Four */
+span.four::before {
+  content:"4"
+}
+
+/* Extends Five */
+span.five::before {
+  content:"5"
+}
+
+/* Extends Six */
+span.six::before {
+  content:"6"
+}
+
+/* Extends Seven */
+span.seven::before {
+  content:"7"
+}
+
+/* Extends Eight */
+span.eight::before {
+  content:"8"
+}
+
+/* Extends Nine */
+span.nine::before {
+  content:"9"
+}
+
+/* Extends Ten */
+span.ten::before {
+  content:"10"
+}

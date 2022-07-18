@@ -1,0 +1,21 @@
+{
+  "packaging-layout":0,
+   "version":"1.0.0",
+   "version-name":"Nothing",
+  "layout-name":[],
+  "authorings":{
+    "classing":0,
+    "input-type-total":0,
+    "vue-aviable":false,
+     "cases":[
+       "hat",
+       "hps",
+       "hpc",
+       "a"
+     ],
+    "file-name":"computed.json",
+    "show-number":0,
+    "break-eternity-lines":3105,
+    "reality":null
+  }
+}
